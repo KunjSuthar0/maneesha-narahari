@@ -1,0 +1,524 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap');
+/* =====================================================
+Small devices (landscape phones, 576px and up)*/
+@media (min-width: 575px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* =====================================================
+Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575) {
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+  
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 399px) {
+  body{
+    padding: 5px; 
+}
+  p{font-size: 16px;}
+  
+  
+  h1{ font-size: 2.25rem;}
+  h2{ font-size: 2rem;}
+  h3{ font-size: 1.75rem;}
+  h4{ font-size: 1.5rem;}
+  h5{ font-size: 1.25rem;}
+  h6{ font-size: 1.15rem;}
+  
+  .hyper-link a {
+    font-size: 13px;
+  }
+
+  .hero-text h1 {
+    font-size: 28vw;
+    bottom: -45px;
+  }
+  .tile-inner-hero {
+    height: 300px;
+    padding: 10px;
+  }
+  .img-tile {
+    background: url("../../images/pro_pic_1.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  .services h4 {
+    padding: 100px 0px 30px 0px;
+  }
+  .about-text h4, .services h4{
+    font-size: 28px;
+  }
+  .tile-hero {
+    min-height: 300px;
+  }
+  .tile-inner-hero {
+    min-height: 300px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .intro h6{
+    font-size: 22px;
+    font-weight: 300;
+    padding-bottom: 20px;
+  }
+  
+  .intro h1{
+    font-size: 40px;
+    font-weight: 350;
+  }
+  
+  .exp-year h1.exp{
+    font-size: 72px;
+  }
+  .exp-year h6{
+    font-size: 24px;
+  }
+  .page-content h6.pb-5{
+    padding-bottom: 20px !important;
+  }
+  
+  ul.edu li h5, ul.nmbr li h5 {
+    font-size: 24px;
+    padding: 0px;
+  }
+  ul.edu li img {
+    width: 35px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+  }
+  ul.edu li h5 span, ul.nmbr li h5 span {
+    font-size: 14px;
+    padding-top: 10px;
+    display: block;
+    margin-left: 55px;
+  }
+  .tile-bg {
+    min-height: 250px;
+    padding: 20px;
+  }
+
+  .tile-text-btm {
+    position: absolute;
+    bottom: 20px;
+    padding-right: 20px;
+  }
+  ul.tag li {
+    font-size: 14px;
+    color: #C82F2F;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 13px 15px 10px 15px;
+    margin: 0px 10px 15px 0px;
+    display: inline-block;
+    border: 1px solid #3C4453;
+    border-radius: 30px;
+    transition: all .6s ease-in-out;
+  }
+  .title {
+    padding: 30px 0px 10px 0px;
+   }
+  .title h2 {
+    padding-bottom: 0px;
+  }
+  ul.social-icon li {
+    font-size: 28px;
+  }
+  .page-content h6{
+    width: 100%;
+  }
+.owl-dots{
+  display: none;
+}
+.bl-txt h5{
+  font-size: 26px;
+}
+.bl-txt{
+  margin-bottom: 60px;
+}
+.blog-section .blog .bl-txt:nth-last-child(2){
+  margin-bottom: 60px;
+}
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) and (max-width: 575.98px) {
+  body{padding: 5px;}
+  p{font-size: 16px;}
+  
+  h1{ font-size: 2.25rem;}
+h2{ font-size: 2rem;}
+h3{ font-size: 1.75rem;}
+h4{ font-size: 1.5rem;}
+h5{ font-size: 1.25rem;}
+h6{ font-size: 1.15rem;}
+
+.hero-text h1 {
+  font-size: 28vw;
+  bottom: -45px;
+}
+.tile-inner-hero {
+  height: 350px;
+  padding: 10px;
+}
+.img-tile {
+  background: url("../../images/pro_pic_1.jpg") no-repeat center -30px;
+  background-size: cover;
+}
+.intro h6{
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+.intro h1{
+  font-size: 42px;
+  font-weight: 350;
+}
+
+.about-text h4, .services h4 {
+	font-size: 28px;
+}
+
+.exp-year h1.exp{
+  font-size: 72px;
+}
+.exp-year h6{
+  font-size: 26px;
+}
+.tile-bg {
+  min-height: 250px;
+  padding: 20px;
+}
+.tile-text-btm {
+	position: absolute;
+	bottom: 20px;
+	padding-right: 20px;
+}
+.title {
+  padding: 30px 0px 10px 0px;
+ }
+.title h2 {
+  padding-bottom: 0px;
+}
+ul.edu li h5, ul.nmbr li h5 {
+	font-size: 26px;
+	padding: 0px;
+}
+ul.edu li img {
+	width: 35px;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+}
+ul.edu li h5 span, ul.nmbr li h5 span {
+	font-size: 14px;
+	padding-top: 10px;
+	display: block;
+	margin-left: 55px;
+}
+.page-content h6.pb-5{
+  padding-bottom: 20px !important;
+}
+ul.tag li {
+	font-size: 14px;
+	color: #C82F2F;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding: 13px 15px 10px 15px;
+	margin: 0px 10px 15px 0px;
+	display: inline-block;
+	border: 1px solid #3C4453;
+	border-radius: 30px;
+	transition: all .6s ease-in-out;
+}
+.bl-txt{
+  margin-bottom: 60px;
+}
+.blog-section .blog .bl-txt:nth-last-child(2){
+  margin-bottom: 60px;
+}
+.page-content h6 {
+	width: 100%;
+}
+.owl-dots{
+display: none;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  body{padding: 10px;}
+  
+p{
+  font-size: 16px;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+  letter-spacing: .5px;
+}
+  h1{ font-size: 3rem;}
+  h2{ font-size: 2.5rem;}
+  h3{ font-size: 2rem;}
+  h4{ font-size: 1.75rem;}
+  h5{ font-size: 1.5rem;}
+  h6{ font-size: 1.25rem;}
+  
+  .hero-text h1 {
+    font-size: 27vw;
+    bottom: -65px;
+  }
+  .tile-inner-hero {
+    height: 400px;
+    padding: 10px;
+  }
+  .img-tile {
+    background: url("../../images/pro_pic_1.jpg") no-repeat center -50px;
+    background-size: cover;
+  }
+  
+  .tile-bg {
+    min-height: 250px;
+    padding: 30px;
+  }
+  .tile-text-btm {
+    position: absolute;
+    bottom: 30px;
+    padding-right: 30px;
+  }
+  .title {
+    padding: 30px 0px 10px 0px;
+   }
+  .title h2 {
+    padding-bottom: 0px;
+  }
+  .bl-txt{
+    margin-bottom: 60px;
+  }
+  .blog-section .blog .bl-txt:nth-last-child(2){
+    margin-bottom: 60px;
+  }
+  ul.tag li {
+    font-size: 14px;
+    color: #C82F2F;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 13px 15px 10px 15px;
+    margin: 0px 10px 15px 0px;
+    display: inline-block;
+    border: 1px solid #3C4453;
+    border-radius: 30px;
+    transition: all .6s ease-in-out;
+  }
+  .page-content h6.pb-5{
+    padding-bottom: 20px !important;
+  }
+.owl-dots{
+  display: none;
+}
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+  p{
+  font-size: 16px;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+  letter-spacing: .5px;
+}
+  h1{ font-size: 3.25rem;}
+  h2{ font-size: 2.75rem;}
+  h3{ font-size: 2.5rem;}
+  h4{ font-size: 2rem;}
+  h5{ font-size: 1.75rem;}
+  h6{ font-size: 1.5rem;}
+  
+
+  .hero-text h1 {
+    font-size: 25vw;
+    bottom: -70px;
+  }
+  .tile-inner-hero {
+    height: 400px;
+    padding: 10px;
+  }
+  .img-tile {
+    background: url("../../images/pro_pic_1.jpg") no-repeat center -50px;
+    background-size: cover;
+  }
+  .title {
+   padding: 30px 0px 10px 0px;
+  }
+
+  .tile-bg {
+    padding: 30px;
+  }
+ .title h2 {
+    padding-bottom: 0px;
+  }
+
+.owl-dots{
+  display: none;
+}
+.page-content-sml {
+	margin-bottom: 10px;
+}
+ul.tag li {
+	font-size: 14px;
+	color: #C82F2F;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding: 13px 15px 10px 15px;
+	margin: 0px 10px 15px 0px;
+	display: inline-block;
+	border: 1px solid #3C4453;
+	border-radius: 30px;
+	transition: all .6s ease-in-out;
+}
+.page-content h6, .page-content-sml h6{
+  width: 90%;
+  font-size: 1.25em;
+}
+.page-content h6.pb-5{
+  padding-bottom: 20px !important;
+}
+.bl-txt{
+  margin-bottom: 60px;
+}
+.blog-section .blog .bl-txt:nth-last-child(2){
+  margin-bottom: 60px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+  p{
+      font-size: 15px;
+      line-height: 1.5rem;
+      padding: 0;
+      margin: 0;
+      letter-spacing: .5px;
+    }
+    h1{ font-size: 3.5rem;}
+    h2{ font-size: 3rem;}
+    h3{ font-size: 2.75rem;}
+    h4{ font-size: 2.5rem;}
+    h5{ font-size: 2rem;}
+    h6{ font-size: 1.25rem;}
+ 
+.hero-text h1 {
+  font-size: 11vw;
+}
+    
+    .tile-bg {
+      padding: 30px;
+    }
+    .tile-text-btm {
+      bottom: 30px;
+      padding-right: 30px;
+    }
+    ul.social-icon li {
+      font-size: 28px;
+      padding-right: 10px;
+      line-height: 0px;
+    }
+    .title h2 {
+      padding-bottom: 0px;
+    }
+  ul.edu li h5, ul.nmbr li h5 {
+    font-size: 26px;
+  }
+  ul.edu li img {
+    width: 35px;
+    margin-right: 20px;
+  }
+  .past-exp-card h6 {
+    padding-bottom: 15px;
+  }
+  ul.tag li {
+    font-size: 14px;
+    color: #C82F2F;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 13px 15px 10px 15px;
+    margin: 0px 10px 15px 0px;
+    display: inline-block;
+    border: 1px solid #3C4453;
+    border-radius: 30px;
+    transition: all .6s ease-in-out;
+  }
+
+  .blog .bl-img{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+  }
+  .bl-txt{
+    margin-bottom: 60px;
+}
+
+.blog-section .blog .bl-txt:nth-last-child(1),
+.blog-section .blog .bl-txt:nth-last-child(2){
+    margin: 0;
+}
+
+}
+
+/* Large devices (desktops, 1200px and up) */
+
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+  .tile-bg {
+    padding: 35px;
+  }
+  .tile-text-btm {
+    bottom: 35px;
+    padding-right: 35px;
+  }
+  ul.social-icon li {
+    font-size: 28px;
+    padding-right: 10px;
+    line-height: 0px;
+  }
+  .title h2 {
+    padding-bottom: 10px;
+  }
+
+}
+
